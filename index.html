@@ -33,13 +33,15 @@
     <meta name="webspace.environment.spawn_point.transform" content="translate3d(-1176cm, 75cm, 757cm) rotate3d(-0.215, 0.972, 0.094, 0.845rad)" />
     <meta name="webspace.environment.spawn_point.radius" content="0" />
     <meta charset="utf-8" />
-    <meta name="webspace.keys.owner" content="eyJhbGciOiJFUzI1NiIsImNydiI6IlAtMjU2IiwiZXh0Ijp0cnVlLCJrZXlfb3BzIjpbInZlcmlmeSJdLCJrdHkiOiJFQyIsIngiOiJUU0Z6dTdBa1luallmUUhqUXNCNmQzWDdhS3JKVEYtYzhCZVhsOTJKYUhvIiwieSI6Il9saGVVOExObklTckxfMmhmdmgzVkxJNU93ZFE5MV9weFlRS0ctNndFbGsiLCJodWJfaWQiOiJFbks5UU5DTTdoWXlSa3RxIn0=" />
+    <meta name="webspace.keys.owner" content="eyJhbGciOiJFUzI1NiIsImNydiI6IlAtMjU2IiwiZXh0Ijp0cnVlLCJrZXlfb3BzIjpbInZlcmlmeSJdLCJrdHkiOiJFQyIsIngiOiI1aExIOWRyTFg3NFE3ZVpkUmxMZm5KMW82NHRnMi1telh1XzlCeHdubmswIiwieSI6InAyd1hfWW5TSFloYmt3MFVYcnNfLUExV2ZKa3dxNW1VV202eHJMcnpNcm8iLCJodWJfaWQiOiI5aEdtVGdwclo0OUp1eHFXIn0=" />
   </head>
   <body>
     <label id="w3kumm5" contenteditable="" style="color: rgb(183, 255, 221); width: min-content; height: min-content; background-color: rgb(19, 68, 18); font-family: sans-serif; transform: translate3d(-1700cm, 322cm, 561cm) rotate3d(-0.159, 0.982, 0.106, 1.211rad); ">
       <h1>compile.sh</h1>
     </label>
-    <marquee id="2ssfifa" contenteditable="" style="color: rgb(58, 231, 225); width: min-content; height: min-content; background-color: transparent; -webkit-text-stroke: 4px; -webkit-text-stroke-color: black; font-family: ui-rounded; transform: translate3d(-1698cm, 266cm, 523cm) rotate3d(-0.200, 0.972, 0.125, 1.040rad) scale3d(0.98, 0.98, 0.98); "><code>rm build/nft-item-code.fif</code></marquee>
+    <marquee id="2ssfifa" contenteditable="" style="color: rgb(58, 231, 225); width: min-content; height: min-content; background-color: transparent; -webkit-text-stroke: 4px; -webkit-text-stroke-color: black; font-family: ui-rounded; transform: translate3d(-1698cm, 266cm, 523cm) rotate3d(-0.200, 0.972, 0.125, 1.040rad) scale3d(0.98, 0.98, 0.98); ">
+      <code>rm build/nft-item-code.fif</code>
+    </marquee>
     <model id="05gikd2" type="model/vnd.svox" src="assets/main-672905.svox" style="transform: translate3d(-2689cm, 280cm, 167cm) rotate3d(0.039, 0.980, -0.195, 2.757rad) scale3d(3.36, 3.36, 3.36); " draggable=""></model>
     <model id="74jzd3d" type="model/vnd.svox" src="assets/main-672905.svox" draggable="" style="transform: translate3d(-2729cm, 277cm, -732cm) rotate3d(0.035, 0.999, -0.022, 1.117rad) scale3d(3.36, 3.36, 3.36); ">
     </model>
@@ -53,7 +55,8 @@
       <table>
         <tbody>
           <tr>
-            <td data-row="1"><span style="color: var(--dashboard-secondaryText); background-color: rgb(255, 255, 255);">Worker nameCurrent </span><span style="color: inherit; background-color: initial;">↕</span><span style="color: var(--dashboard-secondaryText); background-color: rgb(255, 255, 255);">1h </span><span style="color: inherit; background-color: initial;">↕</span><span style="color: var(--dashboard-secondaryText); background-color: rgb(255, 255, 255);">24h </span><span style="color: inherit; background-color: initial;">↕</span></td>
+            <td data-row="1"><span style="background-color: rgb(255, 255, 255); color: var(--dashboard-secondaryText);">Worker
+              nameCurrent </span><span style="background-color: initial; color: inherit;">↕</span><span style="background-color: rgb(255, 255, 255); color: var(--dashboard-secondaryText);">1h </span><span style="background-color: initial; color: inherit;">↕</span><span style="background-color: rgb(255, 255, 255); color: var(--dashboard-secondaryText);">24h </span><span style="background-color: initial; color: inherit;">↕</span></td>
           </tr>
           <tr>
             <td data-row="2"><span style="color: rgb(28, 30, 33);">Total hashrate</span></td>
@@ -85,20 +88,20 @@
     </label>
     <!-- Code injected by live-server -->
     <script id="enrt7bc" draggable="">
-      // &lt;![CDATA[  &lt;-- For SVG support
+      // &amp;lt;![CDATA[  &amp;lt;-- For SVG support
       if ('WebSocket' in window) {
         (function() {
           function refreshCSS() {
             var sheets = [].slice.call(document.getElementsByTagName("link"));
             var head = document.getElementsByTagName("head")[0];
-            for (var i = 0; i & lt; sheets.length; ++i) {
+            for (var i = 0; i & amp; lt; sheets.length; ++i) {
               var elem = sheets[i];
               var parent = elem.parentElement || head;
               parent.removeChild(elem);
               var rel = elem.rel;
-              if (elem.href & amp; & amp; typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
-                var url = elem.href.replace(/(&amp;|\?)_cacheOverride=\d+/, '');
-                elem.href = url + (url.indexOf('?') & gt; = 0 ? '&amp;' : '?') + '_cacheOverride=' + (new Date().valueOf());
+              if (elem.href & amp; amp; & amp; amp; typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+                var url = elem.href.replace(/(&amp;amp;|\?)_cacheOverride=\d+/, '');
+                elem.href = url + (url.indexOf('?') & amp; gt; = 0 ? '&amp;amp;' : '?') + '_cacheOverride=' + (new Date().valueOf());
               }
               parent.appendChild(elem);
             }
@@ -110,7 +113,7 @@
             if (msg.data == 'reload') window.location.reload();
             else if (msg.data == 'refreshcss') refreshCSS();
           };
-          if (sessionStorage & amp; & amp; !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+          if (sessionStorage & amp; amp; & amp; amp; !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
             console.log('Live reload enabled.');
             sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
           }
@@ -118,7 +121,7 @@
       } else {
         console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
       }
-      // ]]&gt;
+      // ]]&amp;gt;
     </script>
 
   </body>
