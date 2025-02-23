@@ -1,6 +1,6 @@
 model
 name = Первый
-revision = 8416
+revision = 8418
 size = 22 40 20
 origin = -y
 shell = Outline 0.25
