@@ -19,23 +19,29 @@
       }
     </style>
     <meta name="webspace.environment.type" content="terrain" />
-    <meta name="webspace.environment.terrain.colors.ground" content="#152D01" />
-    <meta name="webspace.environment.terrain.colors.edge" content="#082300" />
-    <meta name="webspace.environment.terrain.colors.leaves" content="#748E08" />
-    <meta name="webspace.environment.terrain.colors.bark" content="#2F2014" />
-    <meta name="webspace.environment.terrain.colors.rock" content="#938465" />
-    <meta name="webspace.environment.terrain.colors.grass" content="#60A200" />
-    <meta name="webspace.environment.terrain.colors.sky" content="#6E85C8" />
-    <meta name="webspace.environment.terrain.colors.water" content="#080170" />
-    <meta name="webspace.environment.terrain.type" content="islands" />
+    <meta name="webspace.environment.terrain.colors.ground" content="#191001" />
+    <meta name="webspace.environment.terrain.colors.edge" content="#1E1000" />
+    <meta name="webspace.environment.terrain.colors.leaves" content="#0059B1" />
+    <meta name="webspace.environment.terrain.colors.bark" content="#05050A" />
+    <meta name="webspace.environment.terrain.colors.rock" content="#303048" />
+    <meta name="webspace.environment.terrain.colors.grass" content="#000000" />
+    <meta name="webspace.environment.terrain.colors.sky" content="#386193" />
+    <meta name="webspace.environment.terrain.colors.water" content="#1771CA" />
+    <meta name="webspace.environment.terrain.type" content="plains" />
     <meta name="webspace.environment.terrain.seed" content="16" />
     <meta name="webspace.permissions.content_change_role" content="owner" />
     <meta name="webspace.environment.spawn_point.transform" content="translate3d(-1176cm, 75cm, 757cm) rotate3d(-0.215, 0.972, 0.094, 0.845rad)" />
     <meta name="webspace.environment.spawn_point.radius" content="0" />
     <meta charset="utf-8" />
-    <meta name="webspace.keys.owner" content="eyJhbGciOiJFUzI1NiIsImNydiI6IlAtMjU2IiwiZXh0Ijp0cnVlLCJrZXlfb3BzIjpbInZlcmlmeSJdLCJrdHkiOiJFQyIsIngiOiI1aExIOWRyTFg3NFE3ZVpkUmxMZm5KMW82NHRnMi1telh1XzlCeHdubmswIiwieSI6InAyd1hfWW5TSFloYmt3MFVYcnNfLUExV2ZKa3dxNW1VV202eHJMcnpNcm8iLCJodWJfaWQiOiI5aEdtVGdwclo0OUp1eHFXIn0=" />
+    <meta name="webspace.keys.owner" content="eyJhbGciOiJFUzI1NiIsImNydiI6IlAtMjU2IiwiZXh0Ijp0cnVlLCJrZXlfb3BzIjpbInZlcmlmeSJdLCJrdHkiOiJFQyIsIngiOiJUU0Z6dTdBa1luallmUUhqUXNCNmQzWDdhS3JKVEYtYzhCZVhsOTJKYUhvIiwieSI6Il9saGVVOExObklTckxfMmhmdmgzVkxJNU93ZFE5MV9weFlRS0ctNndFbGsiLCJodWJfaWQiOiJFbks5UU5DTTdoWXlSa3RxIn0=" />
   </head>
   <body>
+    <label id="w3kumm5" contenteditable="" style="color: rgb(183, 255, 221); width: min-content; height: min-content; background-color: rgb(19, 68, 18); font-family: sans-serif; transform: translate3d(-1700cm, 322cm, 561cm) rotate3d(-0.159, 0.982, 0.106, 1.211rad); ">
+      <h1>compile.sh</h1>
+    </label>
+    <marquee id="2ssfifa" contenteditable="" style="color: rgb(58, 231, 225); width: min-content; height: min-content; background-color: transparent; -webkit-text-stroke: 4px; -webkit-text-stroke-color: black; font-family: ui-rounded; transform: translate3d(-1698cm, 266cm, 523cm) rotate3d(-0.200, 0.972, 0.125, 1.040rad) scale3d(0.98, 0.98, 0.98); ">
+      <code>rm build/nft-item-code.fif</code>
+    </marquee>
     <model id="05gikd2" type="model/vnd.svox" src="assets/main-672905.svox" style="transform: translate3d(-2689cm, 280cm, 167cm) rotate3d(0.039, 0.980, -0.195, 2.757rad) scale3d(3.36, 3.36, 3.36); " draggable=""></model>
     <model id="74jzd3d" type="model/vnd.svox" src="assets/main-672905.svox" draggable="" style="transform: translate3d(-2729cm, 277cm, -732cm) rotate3d(0.035, 0.999, -0.022, 1.117rad) scale3d(3.36, 3.36, 3.36); ">
     </model>
@@ -45,22 +51,57 @@
     </model>
     <model id="sc4an8l" type="model/vnd.svox" src="assets/main-359156.svox" style="transform: translate3d(-1814cm, 334cm, 1527cm) rotate3d(0.877, -0.363, 0.315, 1.700rad) scale3d(3.82, 3.82, 3.82); ">
     </model>
+    <label id="dd64vzp" contenteditable="" style="color: black; width: min-content; height: min-content; background-color: white; font-family: sans-serif; transform: translate3d(-1531cm, 259cm, 165cm) rotate3d(-0.221, 0.971, 0.094, 0.900rad) scale3d(2.07, 2.07, 2.07); ">
+      <table>
+        <tbody>
+          <tr>
+            <td data-row="1"><span style="background-color: rgb(255, 255, 255); color: var(--dashboard-secondaryText);">Worker
+              nameCurrent </span><span style="background-color: initial; color: inherit;">↕</span><span style="background-color: rgb(255, 255, 255); color: var(--dashboard-secondaryText);">1h </span><span style="background-color: initial; color: inherit;">↕</span><span style="background-color: rgb(255, 255, 255); color: var(--dashboard-secondaryText);">24h </span><span style="background-color: initial; color: inherit;">↕</span></td>
+          </tr>
+          <tr>
+            <td data-row="2"><span style="color: rgb(28, 30, 33);">Total hashrate</span></td>
+            <td data-row="2"><span style="color: rgb(28, 30, 33);">136.04 TH/s</span></td>
+            <td data-row="2"><span style="color: rgb(28, 30, 33);">137.29 TH/s</span></td>
+            <td data-row="2"><span style="color: rgb(28, 30, 33);">133.00 TH/s</span></td>
+          </tr>
+          <tr>
+            <td data-row="3"><span style="color: rgb(28, 30, 33);"> 01</span></td>
+            <td data-row="3"><span style="color: rgb(28, 30, 33);">80.69 TH/s</span></td>
+            <td data-row="3"><span style="color: rgb(28, 30, 33);">75.37 TH/s</span></td>
+            <td data-row="3"><span style="color: rgb(28, 30, 33);">77.99 TH/s</span></td>
+          </tr>
+          <tr>
+            <td data-row="4"><span style="color: rgb(28, 30, 33);"> 1</span></td>
+            <td data-row="4"><span style="color: rgb(28, 30, 33);">29.09 TH/s</span></td>
+            <td data-row="4"><span style="color: rgb(28, 30, 33);">31.12 TH/s</span></td>
+            <td data-row="4"><span style="color: rgb(28, 30, 33);">28.28 TH/s</span></td>
+          </tr>
+          <tr>
+            <td data-row="5"><span style="color: rgb(28, 30, 33);"> niMazurmax38x1x70</span></td>
+            <td data-row="5"><span style="color: rgb(28, 30, 33);">26.27 TH/s</span></td>
+            <td data-row="5"><span style="color: rgb(28, 30, 33);">30.80 TH/s</span></td>
+            <td data-row="5"><span style="color: rgb(28, 30, 33);">26.73 TH/s</span></td>
+          </tr>
+        </tbody>
+      </table>
+      <h1><strong>﻿</strong></h1>
+    </label>
     <!-- Code injected by live-server -->
     <script id="enrt7bc" draggable="">
-      // &amp;lt;![CDATA[  &amp;lt;-- For SVG support
+      // &lt;![CDATA[  &lt;-- For SVG support
       if ('WebSocket' in window) {
         (function() {
           function refreshCSS() {
             var sheets = [].slice.call(document.getElementsByTagName("link"));
             var head = document.getElementsByTagName("head")[0];
-            for (var i = 0; i & amp; lt; sheets.length; ++i) {
+            for (var i = 0; i & lt; sheets.length; ++i) {
               var elem = sheets[i];
               var parent = elem.parentElement || head;
               parent.removeChild(elem);
               var rel = elem.rel;
-              if (elem.href & amp; amp; & amp; amp; typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
-                var url = elem.href.replace(/(&amp;amp;|\?)_cacheOverride=\d+/, '');
-                elem.href = url + (url.indexOf('?') & amp; gt; = 0 ? '&amp;amp;' : '?') + '_cacheOverride=' + (new Date().valueOf());
+              if (elem.href & amp; & amp; typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+                var url = elem.href.replace(/(&amp;|\?)_cacheOverride=\d+/, '');
+                elem.href = url + (url.indexOf('?') & gt; = 0 ? '&amp;' : '?') + '_cacheOverride=' + (new Date().valueOf());
               }
               parent.appendChild(elem);
             }
@@ -72,7 +113,7 @@
             if (msg.data == 'reload') window.location.reload();
             else if (msg.data == 'refreshcss') refreshCSS();
           };
-          if (sessionStorage & amp; amp; & amp; amp; !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+          if (sessionStorage & amp; & amp; !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
             console.log('Live reload enabled.');
             sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
           }
@@ -80,54 +121,8 @@
       } else {
         console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
       }
-      // ]]&amp;gt;
+      // ]]&gt;
     </script>
-    <label id="akxu3q6" contenteditable="" draggable="" style="color: rgb(182, 80, 80); width: min-content; height: min-content; background-color: rgb(255, 187, 187); font-family: sans-serif; transform: translate3d(1158cm, 405cm, -1953cm) rotate3d(0.081, -0.996, 0.026, 0.618rad); ">
-      <h1>Добро Пожаловать</h1>
-      <h1>в МежКосмос🌟✨</h1>
-    </label>
-    <model id="ogxfbq5" type="model/vnd.svox" src="assets/cas-29012.svox" draggable="" style="transform: translate3d(1474cm, 421cm, -2140cm) rotate3d(0.241, -0.964, 0.115, 0.917rad); "></model>
-    <div id="kq8bvom" contenteditable="" draggable="" style="color: rgb(182, 80, 80); overflow-y: scroll; background-color: rgb(255, 187, 187); font-family: sans-serif; transform: translate3d(955cm, 391cm, -2150cm) rotate3d(0.253, -0.964, 0.083, 0.655rad); ">
-      <p>Каноны:</p>
-      <p>Канон Свободы Воли - каждая Душа имеет волю, равную Божественной.</p>
-      <p>Канон Зерцала - что излучаешь, то и получаешь.</p>
-      <p>Канон Причины и Следствия - Люди, события, состояния - следствия предыдщуих решений</p>
-      <p>Канон Всесвязанности - Всё пришло из единого целого, и всё сотворено из Благодати, и временно разделено материаей.</p>
-      <p>Канон Школы - мы в этой жизни проходим уроки. Усвоил урок - двинулся дальше.</p>
-    </div>
-    <div id="8cuxxc9" contenteditable="" draggable="" style="color: rgb(182, 80, 80); overflow-y: scroll; background-color: rgb(255, 187, 187); font-family: sans-serif; transform: translate3d(682cm, 390cm, -2291cm) rotate3d(0.530, -0.845, 0.067, 0.323rad); ">
-      <p>Правила поведения и мышления на территории моего Космоса (личность, физическое, эмоциональное , энергетическое, ментальное и казуальное тела моей Души)</p>
-      <p>1. Я ценю моё присутствие в окружающем меня космосе и отношусь к нему дружелюбно, с заботой, уважением и участием.</p>
-      <p>2. Я уважаю мой выбор, руководствуясь Каноном Свободы Воли</p>
-      <p>3. Я признаю божественную природу моей Души и суверенность моих решений.</p>
-      <p>4. Я отказываюсь от обманов и манипуляций</p>
-    </div>
-    <div id="daj1t5w" contenteditable="" draggable="" style="color: rgb(182, 80, 80); overflow-y: scroll; background-color: rgb(255, 187, 187); font-family: sans-serif; transform: translate3d(384cm, 390cm, -2358cm) rotate3d(0.962, -0.269, 0.044, 0.337rad); ">
-      <p>5. Я искренне говорю о важном, когда это разумно и в разумной форме</p>
-      <p>6. Я мысленно уточняю разумность принятия решений</p>
-      <p>7. Я честен со мной</p>
-      <p>8. Я уважаю мои личные границы и бережно отношусь к нимъ</p>
-      <p>9. Я исключаю возможность манипуляций по отношению ко мне и в окружающем меня космосе.</p>
-      <p>10. Я осознаю иллюзорность и ложность звуков, всех видов материи и выбираю видеть суть, ключеввое, истину</p>
-    </div>
-    <div id="nlinula" contenteditable="" draggable="" style="color: rgb(182, 80, 80); overflow-y: scroll; background-color: rgb(255, 187, 187); font-family: sans-serif; transform: translate3d(65cm, 385cm, -2386cm) rotate3d(0.990, -0.138, 0.021, 0.294rad); ">
-      <p>11. Я принимаю решения и действую на благо моей души с разумным отношением к моим личным границам.</p>
-      <p>12. Я выбираю расположить личные границы вокруг моего личного космоса, а внутри него культивировать взращивать иситнную Любовь, Обавь, споконую чистую радость,и душевное счастье</p>
-    </div><video id="ytx4yvd" controls="controls" preload="none" autoplay="autoplay" loop="" src="assets/2025-02-23-14-45-21-2628.mp4" draggable="" style="transform: translate3d(1107cm, 330cm, -1931cm) rotate3d(-0.149, -0.988, -0.045, 0.563rad); "></video>
-    <div id="bvedn0r" contenteditable="" style="color: rgb(183, 255, 221); overflow-y: scroll; background-color: rgb(19, 68, 18); font-family: sans-serif; transform: translate3d(-238cm, 345cm, -2301cm) rotate3d(0.438, 0.897, -0.055, 0.721rad); " draggable="">
-      <p>Определния:</p>
-      <p>"Я" = Душа воплощённая, руководствующаяся Разумом</p>
-      <p>"Ценить" = признавать высокую степень приоритетности для осознанного присутствия с человеком, различать и принимать ценность передаваемой человеком информации</p>
-      <p>"уважать" = признавать свободу воли человека при совершении им любого выбора</p>
-      <p>"Личные границы" - "берега" - крайности, которые присущи Душе, нарушая которые Душа в итоге расплачивается испытыванием страдания, душевной боли.</p>
-    </div>
-    <model id="g95587n" type="model/vnd.svox" src="http://127.0.0.1:5500/assets/cube.svox" draggable="" style="transform: translate3d(-1516cm, 291cm, 449cm) rotate3d(-0.058, 0.996, 0.064, 1.663rad); "></model><img id="kzjb03c" loading="lazy" src="assets/photo_2025-02-23_19-31-03-194882.jpg" draggable="" style="transform: translate3d(-1357cm, 408cm, 425cm) rotate3d(0.112, 0.985, -0.129, 1.700rad); " />
-    <div id="srtnrh3" draggable="" style="font-family: emoji; transform: translate3d(-1206cm, 299cm, 87cm) rotate3d(-0.083, 0.995, 0.053, 1.080rad); ">📦</div><img id="xg6e5zu" loading="lazy" src="assets/photo_2025-02-23_19-28-53-537727.jpg" draggable="" style="transform: translate3d(-1209cm, 338cm, 192cm) rotate3d(-0.052, 0.997, 0.049, 1.515rad); " />
-    <marquee id="lgrhk8h" contenteditable="" draggable="" style="color: rgb(183, 255, 221); width: min-content; height: min-content; background-color: transparent; -webkit-text-stroke: 4px; -webkit-text-stroke-color: rgb(19, 68, 18); font-family: sans-serif; transform: translate3d(-1365cm, 339cm, 419cm) rotate3d(0.061, 0.996, -0.061, 1.566rad); ">
-      <h1>ГиперКуб</h1>
-      <h1>Тессаракт</h1>
-    </marquee><embed id="5wh5jys" type="application/pdf" src="assets/%D0%BC%D0%B8%D1%80.%D0%B3%D0%B8%D0%BF%D0%B5%D1%80%D1%81%D0%B5%D1%82%D1%8C_pitch_ver_0.0.1-714767.pdf#page=1" draggable="" style="transform: translate3d(-1221cm, 308cm, 289cm) rotate3d(0.021, 1.000, -0.021, 1.566rad); " /><embed id="9tz2yla" type="application/pdf" src="assets/%D0%BC%D0%B8%D1%80%D0%BA%D1%83%D0%B1_datasheet_0.0.3-322631.pdf#page=1" draggable="" style="transform: translate3d(-1222cm, 308cm, 21cm) rotate3d(0.021, 1.000, -0.021, 1.566rad); " /><img id="k6rvuul" loading="lazy" src="assets/photo_2025-02-23_19-19-10-976905.jpg" draggable="" style="transform: translate3d(2912cm, 293cm, -406cm) rotate3d(-0.014, -1.000, -0.009, 1.212rad); " /><label id="5pto2zs" contenteditable="" draggable="" style="color: rgb(183, 255, 221); width: min-content; height: min-content; background-color: rgb(19, 68, 18); font-family: sans-serif; transform: translate3d(2917cm, 293cm, -572cm) rotate3d(-0.015, -1.000, -0.010, 1.204rad); ">
-      <h1>Ситуационный центр Метатрона</h1>
-    </label>
+
   </body>
 </html>
