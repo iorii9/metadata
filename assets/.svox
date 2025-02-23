@@ -1,7 +1,7 @@
 model
 name = Первый
-revision = 8403
-size = 20 40 20
+revision = 8416
+size = 22 40 20
 origin = -y
 shell = Outline 0.25
 material type = toon, lighting = smooth, deform = 1 1
@@ -9,4 +9,4 @@ material type = toon, lighting = smooth, deform = 1 1
 material type = basic, lighting = smooth, roughness = 0, refractionRatio = 1, side = back
   colors = Outline:#000
 voxels
-20(380-420B)
+419-20(20B2-)4(20B420-12(20B2-)7(19B3-)20B2-)20B420-10(20B2-)18B-B2-20B2-7(19B3-)20B2-20B420-10(20B2-)2(18B-B2-)7(19B3-)20B2-20B420-11(20B2-)18B4-7(19B3-)20B2-20B420-11(20B2-)8(19B3-)11(20B2-20B420-12(20B2-)7(19B3-))20B2-20B-
